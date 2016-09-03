@@ -1,3 +1,7 @@
+https://www.linkedin.com/in/michelle-obama-a62aa550?authType=NAME_SEARCH&authToken=LUej&locale=en_US&srchid=811865931472935277105&srchindex=4&srchtotal=27&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A811865931472935277105%2CVSRPtargetId%3A181864874%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH
+
+
+
 command:
 uname -a : check the version of ubuntu
 ls -l /sys/class/misc/device-mapper : check if the storage drive exists
@@ -84,7 +88,7 @@ docker stop ---> docker start --> exit ---> docker exec web nginx :restart ngix 
 
 ------------------------------
 
-images
+## docker images
 
 docker images [option]  [repository]
 -a,--all=false :list all images
@@ -107,6 +111,9 @@ build your images:
 docker commit -a/--author -m/--message -p/--pause[container name] [images name]:build your images by container 
 docker build
 
+## docker file command
+comment, from maintainer run expose
+
 ---------------------------
 
 docker C/S model:
@@ -122,6 +129,21 @@ socket: tech for remote api
 
 
 nc -U /var/run/docker.sock: connect socket
+
+
+## docker守护进程的配置和操作
+sudo service docker stop 
+sudo status docker
+sudo service docker start/restart（每次修改配置之后需要restart）
+
+##docker 远程访问(-H)
+vim /etc/default/docker
+修改DOCKER_OPTS = ""的值;
+curl http://docker ip:port/info
+docker -H tcp://ip:port
+环境变量：export DOCKER_HOST="tcp......"  为空时指向本地的docker的信息
+
+
 
 
 
