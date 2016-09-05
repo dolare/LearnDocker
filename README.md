@@ -127,7 +127,7 @@ socket: tech for remote api
 2. tcp://host:port
 3. 
 
-
+1
 nc -U /var/run/docker.sock: connect socket
 
 
