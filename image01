@@ -12,4 +12,5 @@ command ：
 7. apt-get install postgresql postgresql-contrib
 8. apt-get install postgresql-client libpq-dev
 9. pip install django
-9. 
+10. apt-get install inetutils-ping
+11. apt-get install net-tools
