@@ -114,6 +114,8 @@ docker build
 ## docker file command
 comment, from maintainer run expose
 
+docker build t [imageName] .
+
 ---------------------------
 
 docker C/S model:
