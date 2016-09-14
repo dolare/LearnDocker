@@ -3,11 +3,16 @@ https://www.linkedin.com/in/michelle-obama-a62aa550?authType=NAME_SEARCH&authTok
 
 
 command:
-uname -a : check the version of ubuntu
-ls -l /sys/class/misc/device-mapper : check if the storage drive exists
-sudo apt install docker.io: install docker
-source /etc/bash_completion.d/docker : compassed the docker
-docker.io version:check the version of docker
+uname -a : check the version of ubuntu  
+
+ls -l /sys/class/misc/device-mapper : check if the storage drive exists 
+
+sudo apt install docker.io: install docker  
+
+source /etc/bash_completion.d/docker : compassed the docker 
+
+docker.io version:check the version of docker 
+
 
 shiyong fei root user:
 1 sudo groupadd docker
